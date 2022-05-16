@@ -1,0 +1,28 @@
+.navigation {
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        @media screen and (max-width:576px) {
+            flex-wrap: nowrap;
+            text-align: center;
+         }
+    }
+    &__item {
+        margin-right: 30px;
+        &:last-of-type {
+            margin-right: 0;
+        }
+        @media screen and (max-width:576px) {
+            margin-right: 10px;
+         }
+    }
+    &__link {
+        font-size: $font-size-sm;
+        line-height: 1;
+        color: $dark_shade_of_gray; 
+        &--color {
+            color: $dark_shade_of_gray_x;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.about {
+
+    &__container { 
+        display: flex;
+        align-items: center;
+        @media screen and (max-width:992px) {
+            flex-direction: column;
+         }
+    }
+
+    &__subtitle {
+        margin-bottom: 8px;
+    }
+    &__desc { 
+        margin-bottom: 20px; 
+    }
+
+  
+    &__images {
+        background-image: url("../images/content/about-image.png");
+        background-repeat: no-repeat;
+        min-height: 576px;
+        min-width: 576px;
+        margin-right: 104px;
+        @media screen and (max-width:992px) {
+           margin: 0 0 30px;
+        }
+        @media screen and (max-width:576px) {
+            display: none;
+         }
+    }  
+    &__content {
+        width: 35%;
+        @media screen and (max-width:992px) {
+            width: 80%;
+            text-align: center;
+         }
+    } 
+}

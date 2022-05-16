@@ -1,0 +1,21 @@
+.main {
+
+    &__exploration {
+        margin-bottom: 80px;
+    }
+    &__about {
+        margin-bottom: 200px;
+        @media screen and (max-width:992px) {     
+            margin-bottom: 100px;
+        }
+    }
+    &__promise {
+        margin-bottom: 259px;
+    }
+    &__family {
+        margin-bottom: 100px;
+    }
+    &__shop {
+        margin-bottom: 100px;
+    }
+}

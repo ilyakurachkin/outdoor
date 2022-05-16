@@ -1,0 +1,75 @@
+.guides {
+
+    &__subtitle {
+        margin-bottom: 7px;
+    }
+    &__desc {
+        width: 49%;
+        margin-bottom: 20px;
+    }
+
+    &__row {
+        display: flex;
+        margin: 0 -15px 20px;
+    }
+
+    &__col {
+        width: 50%;
+        padding: 0 15px;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    &__img {
+        margin-bottom: 20px;
+    }
+}
+.guides-card {
+
+    &__desc {      
+    font-family: 'Poppins';
+    font-size: $font-size-md;
+    line-height: 1.2;
+    color: $dark-grayish;
+    width: 75%;
+    margin-bottom: 12px;
+    }
+}
+
+.frame {
+
+    display: flex;
+    align-items: center;
+
+    &__inner {
+        margin-left: 12px;
+    }
+
+    &__name {
+        display: block;
+        font-family: 'Roboto';
+        font-size: $font-size-sm;
+        line-height: 1.2;
+        color: $dark-grayish;
+    }
+    &__profession {
+        display: block;
+        font-family: 'Poppins';
+        font-size: 11px;
+        line-height: 15px;
+        color: $last_sunlight;
+    }
+    &__date {
+        display: block;
+        font-family: 'Poppins';
+        font-size: $font-size-sm;
+        line-height: 1.2;
+        color: #6F7278;
+        margin-left: auto;
+    }
+ 
+}
